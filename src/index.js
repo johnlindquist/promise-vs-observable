@@ -1,5 +1,5 @@
 import { fromEvent, concat, of } from "rxjs"
-import { switchMap, share, tap, map, startWith } from "rxjs/operators"
+import { switchMap, share, map } from "rxjs/operators"
 import { ajax } from "rxjs/ajax"
 
 const app = document.querySelector("#app")
